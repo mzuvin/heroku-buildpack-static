@@ -53,7 +53,7 @@ types {
     application/zip                       zip;
 
     application/octet-stream              deploy;
-    application/x-ms-manifest             application;
+    application/x-ms-manifest             manifest;
     application/x-ms-application          application;
     
     audio/midi                            mid midi kar;
