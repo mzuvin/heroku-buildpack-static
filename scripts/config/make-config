@@ -4,7 +4,7 @@ require 'fileutils'
 require 'erb'
 require_relative 'lib/nginx_config'
 
-TEMPLATE     = File.join(File.dirname(__FILE__), 'templates/nginx.conf.erb')
+TEMPLATE     = 'templates/nginx.conf.erb'#File.join(File.dirname(__FILE__), 'templates/nginx.conf.erb')
 USER_CONFIG  = 'static.json'
 NGINX_CONFIG = 'config/nginx.conf'
 
